@@ -1,0 +1,9 @@
+trailingComma: 'es5'
+tabWidth: 2
+semi: false
+singleQuote: true
+svelteStrictMode: false
+# overrides:
+#     - files: '*.css'
+#       options:
+#           tabWidth: 4

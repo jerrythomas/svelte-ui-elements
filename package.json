@@ -1,0 +1,54 @@
+{
+  "name": "svelte-ui-elements",
+  "version": "0.0.1",
+  "description": "Set of Svelte 3 UI Components",
+  "author": "Jerry Thomas <me@jerrythomas.name>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerrythomas/svelte-ui-elements.git"
+  },
+  "license": "MIT",
+  "module": "index.mjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "zip": "gzip -9k index.mjs index.js",
+    "lint": "eslint src/* --ext .svelte,.js",
+    "format": "prettier --check \"**\"",
+    "format:fix": "prettier --write \"**\""
+  },
+  "peerDependencies": {
+    "codemirror": "^5.58.1",
+    "svelte": "^3.29.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "codemirror": "^5.58.1",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "marked": "^1.2.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
+    "prismjs": "^1.21.0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-svelte": "^6.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "svelte": "^3.29.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "svelte",
+    "svelte-ui",
+    "components",
+    "themable",
+    "dark",
+    "light"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ]
+}
